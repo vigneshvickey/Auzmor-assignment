@@ -1,0 +1,12 @@
+@media only screen and  (max-width: 1023px){
+
+.sitewrap{
+	display: none;
+}
+#navigate_open{
+	display: block;
+}
+.hammer{
+	display: none!important;
+}
+}

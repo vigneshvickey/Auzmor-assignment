@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>USER | PANEL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="images/png" href="images/loego.png">
+  </head>
+  <body>
+    <div class="navbar">
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!"><i class="material-icons">face</i> Profile</a></li>
+        <li><a href="#!"><i class="material-icons">Settings</i> Setting</a></li>
+        <li><a href="#!"><i class="material-icons">exit_to_app</i> Sign Out</a></li>
+      </ul>
+      <nav class="header">
+        <div class="nav-wrapper">
+         <a class="button-collapse " href="#" data-activates="slide-out" id="navigate_open">
+            <i class="material-icons">dehaze</i>
+      
+          </a>
+          <a href="#!" class="brand-logo hammer"><img src="images/logo.png" width="80px" style="padding:8px;" ></a>
+          <ul class="right">
+            <li><span class="new badge">4</span><i class="material-icons">notifications</i></li>
+            <!-- Dropdown Trigger -->
+            <li><img src="images/user.jpg" class="user-icon"> </li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">John Doe<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
+ <ul id="slide-out" class="side-nav">
+    <li> <a href="#"><img src="images/logo.png" width="50px;" style="    position: relative;
+    /* left: 24px; */
+    top: 11px;">User Panel</a></li>
+            <ul class="collapsible collapsible-accordion">
+              <li ><a href=""><i class="material-icons">dashboard</i>
+           Dashboard</a>
+              </li>
+              <li><a href=""> <i class="material-icons">credit_card</i>
+         Cards</a></li>
+              <li><a href=""><i class="material-icons">assessment</i>
+           Expenditures Reports</a></li>
+           <li><a href=""><i class="material-icons">assignment</i>
+     Manage Expenditures</a></li>
+     <li><a href=""><i class="material-icons">account_circle</i>
+           User Managements</a></li>
+           <li><a href=""><i class="material-icons">settings</i>
+          Setting</a> </li>
+
+  </ul>
+    </div>
+    <div class="sitewrap">
+      <div class="row center dash-board">
+        <div class="col s2 user-wrap"> <a href=""><i class="material-icons">dashboard</i><br>
+          Dashboard</a>
+        </div>
+        <div class="col s2 user-wrap "> <a href="card.html"><i class="material-icons">credit_card</i><br>
+          Cards</a>
+        </div>
+        <div class="col s2 user-wrap "> <a href="exp.html"><i class="material-icons">assessment</i><br>
+          Expenditures Reports</a>
+        </div>
+        <div class="col s2 user-wrap active"> <a href="manage.html"><i class="material-icons">assignment</i><br>
+          Manage Expenditures</a>
+        </div>
+        <div class="col s2 user-wrap"> <a href=""><i class="material-icons">account_circle</i><br>
+          User Managements</a>
+        </div>
+        <div class="col s2 user-wrap mar-user"> <a href=""><i class="material-icons">settings</i><br>
+         Setting</a>
+        </div>
+      </div>
+    </div>
+   <div class="card table-card center">
+    <div class="s12 m12">
+      <table class="table-responsive striped sortable" id="mytable">
+            <thead>
+              <tr>
+                <th>card Name</th>
+                <th>Category</th>
+                <th class="des_con">Description</th>
+                <th>Report</th>
+    
+                <th style="position: relative;"> Date</th>
+                <th class="edit_set">Edit</th>
+                <th class="edit_set">download</th>
+                <th class="edit_set">check Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SBI</td>
+                <td>Travel</td>
+                <td>Lorem ipsum is dummy text of... </td>
+                <td><a class="waves-effect waves-light btn red" href="exp.html">View Report</a></td>
+                <td><span>
+                  12-12-2014</span><br><span>12.30pm</span></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">mode_edit</i></a></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">get_app</i></a></td>
+            <td><i class="material-icons">done</i></a></td>
+                </tr>
+                
+                <tr>
+                <td>ICICI</td>
+                <td>groceries</td>
+                <td>Lorem ipsum is dummy text of... </td>
+                <td><a class="waves-effect waves-light btn red"  href="exp.html">View Report</a></td>
+                <td><span>
+                  12-12-2014</span><br><span>12.30pm</span></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">mode_edit</i></a></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">get_app</i></a></td>
+            <td><i class="material-icons">done</i></a></td>
+                </tr>
+                
+                <tr>
+                <td>HDFC</td>
+                <td>Dining</td>
+                <td>Lorem ipsum is dummy text of... </td>
+                <td><a class="waves-effect waves-light btn red" href="exp.html">View Report</a></td>
+                <td><span>
+                  12-12-2014</span><br><span>12.30pm</span></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">mode_edit</i></a></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">get_app</i></a></td>
+            <td><i class="material-icons">done</i></a></td>
+                </tr>
+                
+                <tr>
+                <td>SBI</td>
+                <td>groceries</td>
+                <td>Lorem ipsum is dummy text of... </td>
+                <td><a class="waves-effect waves-light btn red" href="exp.html">View Report</a></td>
+                <td><span>
+                  12-12-2014</span><br><span>12.30pm</span></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">mode_edit</i></a></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">get_app</i></a></td>
+            <td><i class="material-icons">done</i></a></td>
+                </tr>
+                          <tr>
+                <td>SBI</td>
+                <td>Dining</td>
+                <td>Lorem ipsum is dummy text of... </td>
+                <td><a class="waves-effect waves-light btn red" href="exp.html">View Report</a></td>
+                <td><span>
+                  12-12-2014</span><br><span>12.30pm</span></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">mode_edit</i></a></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">get_app</i></a></td>
+            <td><i class="material-icons">done</i></a></td>
+                </tr>
+                          <tr>
+                <td>HDFC</td>
+                <td>Dining</td>
+                <td>Lorem ipsum is dummy text of... </td>
+                <td><a class="waves-effect waves-light btn red" href="exp.html">View Report</a></td>
+                <td><span>
+                  12-12-2014</span><br><span>12.30pm</span></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">mode_edit</i></a></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">get_app</i></a></td>
+            <td><i class="material-icons">done</i></a></td>
+                </tr>
+                          <tr>
+                <td>ICICI</td>
+                <td>Dining</td>
+                <td>Lorem ipsum is dummy text of... </td>
+                <td><a class="waves-effect waves-light btn red" href="exp.html">View Report</a></td>
+                <td><span>
+                  12-12-2014</span><br><span>12.30pm</span></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">mode_edit</i></a></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">get_app</i></a></td>
+            <td><i class="material-icons">done</i></a></td>
+                </tr>
+                          <tr>
+                <td>HDFC</td>
+                <td>groceries</td>
+                <td>Lorem ipsum is dummy text of... </td>
+                <td><a class="waves-effect waves-light btn red" href="exp.html">View Report</a></td>
+                <td><span>
+                  12-12-2014</span><br><span>12.30pm</span></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">mode_edit</i></a></td>
+                  <td class="edit_set"><a href="#!"><i class="material-icons">get_app</i></a></td>
+            <td><i class="material-icons">close</i></a></td>
+                </tr>
+
+              </tbody>
+                
+
+              </tbody>
+            </table>
+     </div>
+   </div>
+
+          <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+          <script type="text/javascript" src="js/materialize.min.js"></script>
+          <script type="text/javascript" src="js/main.js"></script>
+          <script type="text/javascript">
+            // SIDEBAR
+$(document).ready(function(){
+  $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
+  // START OPEN
+  $('.button-collapse').sideNav('hide');
+})
+          </script>
+        </body>
+      </html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>USER | PANEL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="images/png" href="images/loego.png">
+  </head>
+  <body>
+    <div class="navbar">
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!"><i class="material-icons">face</i> Profile</a></li>
+        <li><a href="#!"><i class="material-icons">Settings</i> Setting</a></li>
+        <li><a href="#!"><i class="material-icons">exit_to_app</i> Sign Out</a></li>
+      </ul>
+      <nav class="header">
+        <div class="nav-wrapper">
+         <a class="button-collapse " href="#" data-activates="slide-out" id="navigate_open">
+            <i class="material-icons">dehaze</i>
+      
+          </a>
+          <a href="#!" class="brand-logo hammer"><img src="images/logo.png" width="80px" style="padding:8px;" ></a>
+          <ul class="right">
+            <li><span class="new badge">4</span><i class="material-icons">notifications</i></li>
+            <!-- Dropdown Trigger -->
+            <li><img src="images/user.jpg" class="user-icon"> </li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">John Doe<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
+      <ul id="slide-out" class="side-nav">
+    <li> <a href="#"><img src="images/logo.png" width="50px;" style="    position: relative;
+    /* left: 24px; */
+    top: 11px;">User Panel</a></li>
+            <ul class="collapsible collapsible-accordion">
+              <li ><a href=""><i class="material-icons">dashboard</i>
+           Dashboard</a>
+              </li>
+              <li><a href="card.html"> <i class="material-icons">credit_card</i>
+         Cards</a></li>
+              <li><a href="exp.html"><i class="material-icons">assessment</i>
+           Expenditures Reports</a></li>
+           <li><a href="manage.html"><i class="material-icons">assignment</i>
+     Manage Expenditures</a></li>
+     <li><a href=""><i class="material-icons">account_circle</i>
+           User Managements</a></li>
+           <li><a href=""><i class="material-icons">settings</i>
+          Setting</a> </li>
+
+  </ul>
+    </div>
+    <div class="sitewrap">
+      <div class="row center dash-board">
+        <div class="col s2 user-wrap"> <a href=""><i class="material-icons">dashboard</i><br>
+          Dashboard</a>
+        </div>
+        <div class="col s2 user-wrap active"> <a href="card.html"><i class="material-icons">credit_card</i><br>
+          Cards</a>
+        </div>
+        <div class="col s2 user-wrap"> <a href="exp.html"><i class="material-icons">assessment</i><br>
+          Expenditures Reports</a>
+        </div>
+        <div class="col s2 user-wrap"> <a href="manage.html"><i class="material-icons">assignment</i><br>
+          Manage Expenditures</a>
+        </div>
+        <div class="col s2 user-wrap"> <a href=""><i class="material-icons">account_circle</i><br>
+          User Managements</a>
+        </div>
+        <div class="col s2 user-wrap mar-user"> <a href=""><i class="material-icons">settings</i><br>
+         Setting</a>
+        </div>
+      </div>
+    </div>
+      <div class="col-wrap">
+<div class="row center">
+	<div class="col s12 m6 offset-m3 l6 offset-l3">
+  
+    	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header active"><i class="material-icons">credit_card</i>State Bank of India &nbsp;<span class="align-right card-num"><b>XXXX XXXX XXXX X234</b></span></div>
+      <div class="collapsible-body">
+      	<img src="images/card1.png">
+      	<br>
+      	<ul>
+      		<li>Current Balance: $900</li>
+      		<li>Last Month Balance: $700 </li>
+      		<li>Total Balance: $4000</li>
+      	</ul>
+      	<span>Lorem ipsum dolor sit amet.</span>
+      	<a class="waves-effect waves-light btn align-right" href="exp.html">Expenditures</a></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">credit_card</i>HDFC &nbsp;<span class="align-right card-num"><b>XXXX XXXX XXXX X274</b></span></div>
+      <div class="collapsible-body"><img src="images/card2.png">
+      	<br>
+      	<ul>
+      		<li>Current Balance: $300</li>
+      		<li>Last Month Balance: $700 </li>
+      		<li>Total Balance: $41000</li>
+      	</ul>
+      	<span>Lorem ipsum dolor sit amet.</span>
+      	<a class="waves-effect waves-light btn align-right" href="exp.html">Expenditures</a></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">credit_card</i>ICICI BANK &nbsp;<span class="align-right card-num"><b>XXXX XXXX XXXX X224</b></span></div>
+      <div class="collapsible-body"><img src="images/card3.png">
+      	<br>
+      	<ul>
+      		<li>Current Balance: $200</li>
+      		<li>Last Month Balance: $600 </li>
+      		<li>Total Balance: $41000</li>
+      	</ul>
+      	<span>Lorem ipsum dolor sit amet.</span>
+      	<a class="waves-effect waves-light btn align-right" href="exp.html">Expenditures</a></div>
+    </li>
+  </ul>
+</div>
+</div>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+     <script type="text/javascript">
+            // SIDEBAR
+$(document).ready(function(){
+  $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
+  // START OPEN
+  $('.button-collapse').sideNav('hide');
+})
+          </script>
+  </body>
+</html>
